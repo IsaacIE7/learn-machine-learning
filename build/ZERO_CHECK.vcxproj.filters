@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\codingstuff\linearregression\build\CMakeFiles\3ce1a13e3c58896084e3969c0f50a078\generate.stamp.rule">
+    <CustomBuild Include="C:\codingstuff\learnML\build\CMakeFiles\653f9adffe457cc291bf15c9d351deb5\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{B0C67138-7B14-3FFC-BDCC-F962BB332C1D}</UniqueIdentifier>
+      <UniqueIdentifier>{9BD60ECA-C912-3AE3-B328-2E66722F29FF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

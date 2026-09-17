@@ -11,9 +11,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 # 4. Define the executable target and add source files
 add_executable(neural_network 
-    src/neuralnetwork/neural_net.cpp 
+    src/neuralnetwork/neural_net_conv.cpp
     src/matvec/mat.cpp 
     src/matvec/vec.cpp
+    src/matvec/tensor.cpp
 )
 
 
@@ -36,14 +37,14 @@ add_executable(neural_network
 
 # 5. Tell CMake where to look for your header files
 target_include_directories(neural_network PRIVATE 
-    "C:/codingstuff/linearregression/src/matvec/include" 
-    "C:/codingstuff/linearregression"
-    "C:/codingstuff/linearregression/raylib/include"
+    ${CMAKE_SOURCE_DIR}/src/matvec/include
+    ${CMAKE_SOURCE_DIR}
+    ${CMAKE_SOURCE_DIR}/raylib/include
 )
 
 # 6. Link libraries with system dependencies
 target_link_libraries(neural_network PRIVATE 
-    "C:/codingstuff/linearregression/raylib/lib/raylib.lib"
+    ${CMAKE_SOURCE_DIR}/raylib/lib/raylib.lib
     winmm.lib
     gdi32.lib
     user32.lib
@@ -51,9 +52,8 @@ target_link_libraries(neural_network PRIVATE
     opengl32.lib
 )
 
-
 # 7. Existing definitions and asset generation scripts
-target_compile_definitions(neural_network PRIVATE MNIST_DATA_LOCATION="C:/codingstuff/linearregression/data/" )
+target_compile_definitions(neural_network PRIVATE MNIST_DATA_LOCATION="${CMAKE_SOURCE_DIR}/data/")
 
 add_custom_command(TARGET neural_network POST_BUILD 
     COMMAND ${CMAKE_COMMAND} -E make_directory $<TARGET_FILE_DIR:neural_network>/mnist 

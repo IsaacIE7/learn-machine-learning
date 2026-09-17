@@ -1,3 +1,3 @@
-C:\codingstuff\linearregression\src\neuralnetwork\neural_net.cpp;C:\codingstuff\linearregression\build\neural_network.dir\Release\neural_net.obj
-C:\codingstuff\linearregression\src\matvec\mat.cpp;C:\codingstuff\linearregression\build\neural_network.dir\Release\mat.obj
-C:\codingstuff\linearregression\src\matvec\vec.cpp;C:\codingstuff\linearregression\build\neural_network.dir\Release\vec.obj
+C:\codingstuff\learnML\src\matvec\mat.cpp;C:\codingstuff\learnML\build\neural_network.dir\Release\mat.obj
+C:\codingstuff\learnML\src\matvec\vec.cpp;C:\codingstuff\learnML\build\neural_network.dir\Release\vec.obj
+C:\codingstuff\learnML\src\matvec\tensor.cpp;C:\codingstuff\learnML\build\neural_network.dir\Release\tensor.obj

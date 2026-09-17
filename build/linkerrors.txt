@@ -1,23 +1,53 @@
 ================================================================================
 Linker Errors
-Generated: 2026-06-24T22:08:45.026Z
-Total Errors: 6
+Generated: 2026-08-31T02:02:15.885Z
+Total Errors: 16
 ================================================================================
 
-[LNK4098] (MSVC)
-defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\codingstuff\linearregression\build\neural_network.vcxproj]
+[LNK2019] (MSVC)
+unresolved external symbol InitWindow referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
 
-[LNK4099] (MSVC)
-PDB 'raylib.pdb' was not found with 'raylib.lib(rcore.obj)' or at 'C:\codingstuff\linearregression\build\Debug\raylib.pdb'; linking object as if no debug info [C:\codingstuff\linearregression\build\neural_network.vcxproj]
+[LNK2019] (MSVC)
+unresolved external symbol WindowShouldClose referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
 
-[LNK4099] (MSVC)
-PDB 'raylib.pdb' was not found with 'raylib.lib(rglfw.obj)' or at 'C:\codingstuff\linearregression\build\Debug\raylib.pdb'; linking object as if no debug info [C:\codingstuff\linearregression\build\neural_network.vcxproj]
+[LNK2019] (MSVC)
+unresolved external symbol ClearBackground referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
 
-[LNK4099] (MSVC)
-PDB 'raylib.pdb' was not found with 'raylib.lib(rshapes.obj)' or at 'C:\codingstuff\linearregression\build\Debug\raylib.pdb'; linking object as if no debug info [C:\codingstuff\linearregression\build\neural_network.vcxproj]
+[LNK2019] (MSVC)
+unresolved external symbol BeginDrawing referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
 
-[LNK4099] (MSVC)
-PDB 'raylib.pdb' was not found with 'raylib.lib(rtext.obj)' or at 'C:\codingstuff\linearregression\build\Debug\raylib.pdb'; linking object as if no debug info [C:\codingstuff\linearregression\build\neural_network.vcxproj]
+[LNK2019] (MSVC)
+unresolved external symbol EndDrawing referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
 
-[LNK4099] (MSVC)
-PDB '' was not found with 'raylib.lib(rtextures.obj)' or at ''; linking object as if no debug info [C:\codingstuff\linearregression\build\neural_network.vcxproj]
+[LNK2019] (MSVC)
+unresolved external symbol SetTargetFPS referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol IsKeyPressed referenced in function "void __cdecl draw_digit_window(struct NeuralNet &)" (?draw_digit_window@@YAXAEAUNeuralNet@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol IsMouseButtonDown referenced in function "void __cdecl draw_digit_window(struct NeuralNet &)" (?draw_digit_window@@YAXAEAUNeuralNet@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol GetMousePosition referenced in function "void __cdecl draw_digit_window(struct NeuralNet &)" (?draw_digit_window@@YAXAEAUNeuralNet@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol DrawLine referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol DrawCircle referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol DrawRectangle referenced in function "void __cdecl draw_digit_window(struct NeuralNet &)" (?draw_digit_window@@YAXAEAUNeuralNet@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol DrawText referenced in function "void __cdecl display(class std::vector<int,class std::allocator<int> >)" (?display@@YAXV?$vector@HV?$allocator@H@std@@@std@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol TextFormat referenced in function "void __cdecl draw_digit_window(struct NeuralNet &)" (?draw_digit_window@@YAXAEAUNeuralNet@@@Z) [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK4272] (MSVC)
+library machine type 'x86' conflicts with target machine type 'x64' [C:\codingstuff\learnML\build\neural_network.vcxproj]
+
+[LNK1120] (MSVC)
+14 unresolved externals [C:\codingstuff\learnML\build\neural_network.vcxproj]

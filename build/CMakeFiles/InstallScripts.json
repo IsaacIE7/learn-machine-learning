@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/codingstuff/linearregression/build/cmake_install.cmake"
+		"C:/codingstuff/learnML/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

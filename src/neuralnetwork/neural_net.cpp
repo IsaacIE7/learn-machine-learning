@@ -49,39 +49,39 @@ struct Layer {
         neurons(weights.rows),
         weightAmnt(weights.cols) {}
 
-    pair<Vec, Vec> forward_lyr_single(const Vec& inputs) {
+    pair<Vec, Vec> forward_lyr_single_sample(const Vec& inputs) {
         Vec z = (weights * inputs) + bias;
         Vec p = z.sigmoid_element_wise();
         return {z, p};
     }
 
-    pair<Mat, Mat> forward_lyr(const Mat& inputs) {
+    pair<Mat, Mat> forward_lyr_batch(const Mat& inputs) {
         Mat z = (inputs * weights.transpose()).add_vec_to_row(bias);
         Mat p = z.sigmoid_element_wise();
 
         return {z, p};
     }
 
-    pair<Mat, Mat> softmax_forward_lyr(const Mat& inputs) {
+    pair<Mat, Mat> forward_lyr_softmax(const Mat& inputs) {
         Mat z = (inputs * weights.transpose()).add_vec_to_row(bias);
         Mat p = z.softmax_element_wise();
 
         return {z, p};
     }
 
-    Mat gradient_w_lyr(const Mat& prev_activation, const Mat& D) { // pass in p - y if output layer
+    Mat compute_weight_grad(const Mat& prev_activation, const Mat& D) { // pass in p - y if output layer
         return D.transpose() * prev_activation * (1.0 / prev_activation.rows);
     }
 
-    Mat compute_D(const Mat& weights_next,  const Mat& D_next, const Mat& crnt_activation) {
+    Mat compute_delta(const Mat& weights_next,  const Mat& D_next, const Mat& crnt_activation) {
         return  (D_next * weights_next).multiply_element_wise(crnt_activation.multiply_element_wise((crnt_activation - 1) * -1));
     }
 
-    Mat compute_D_output(const Mat& p, const Mat& y) {
+    Mat compute_D_output_lyr(const Mat& p, const Mat& y) {
         return p - y;
     }
 
-    Vec gradient_b_lyr(const Mat& D) {
+    Vec compute_bias_grad(const Mat& D) {
         return (D.transpose() * Vec(D.rows, 1)) * (1.0 / D.rows);
     }
 
@@ -120,17 +120,17 @@ struct NeuralNet {
 
         activations.push_back(data);
         
-        auto current = layers[0].forward_lyr(data); //get first hidden layer activation and z values
+        auto current = layers[0].forward_lyr_batch(data); //get first hidden layer activation and z values
         zValues.push_back(current.first); // add  first hidden layer z predictions to zvals list
         activations.push_back(current.second); // add first hidden layer activations ot activation list
 
         for (int i = 1; i < layers.size(); i++) {
             if (i == layers.size() - 1) {
-                current = layers[i].softmax_forward_lyr(activations[i]); 
+                current = layers[i].forward_lyr_softmax(activations[i]); 
                 zValues.push_back(current.first);
                 activations.push_back(current.second); 
             } else {
-                current = layers[i].forward_lyr(activations[i]); //layers doesnt include input layer, activations does
+                current = layers[i].forward_lyr_batch(activations[i]); //layers doesnt include input layer, activations does
                 zValues.push_back(current.first);
                 activations.push_back(current.second); 
             }
@@ -163,17 +163,17 @@ struct NeuralNet {
         gradWeights.clear();
         gradBiases.clear();
 
-        Mat D = layers.back().compute_D_output(activations.back(), y);
+        Mat D = layers.back().compute_D_output_lyr(activations.back(), y);
 
-        gradWeights.push_back(layers.back().gradient_w_lyr(activations[layers.size() - 1], D));
-        gradBiases.push_back(layers.back().gradient_b_lyr(D));
+        gradWeights.push_back(layers.back().compute_weight_grad(activations[layers.size() - 1], D));
+        gradBiases.push_back(layers.back().compute_bias_grad(D));
 
         Mat Dnext = D;
 
         for (int i = layers.size() - 2; i >= 0; i--) {
-            D = layers[i].compute_D(layers[i + 1].weights, Dnext, activations[i + 1]);
-            Mat gradcurrent = layers[i].gradient_w_lyr(activations[i], D);
-            Vec gradbias = layers[i].gradient_b_lyr(D);
+            D = layers[i].compute_delta(layers[i + 1].weights, Dnext, activations[i + 1]);
+            Mat gradcurrent = layers[i].compute_weight_grad(activations[i], D);
+            Vec gradbias = layers[i].compute_bias_grad(D);
             Dnext = D;
 
             gradWeights.push_back(gradcurrent);
@@ -854,7 +854,7 @@ int main() {
         Mat X_data = data.first;
         Mat y_data = data.second;
 
-        auto p = parse_trained_vals("C:/codingstuff/linearregression/weights.json");
+        auto p = parse_trained_vals("C:/codingstuff/learnML/weights.json");
         int i = 0;
         for (auto& a: N.layers) {
             a.weights = p.first[i];
@@ -866,7 +866,7 @@ int main() {
 
         cout << "Train accuracy: " << N.accuracy_10(X_data, y_data) * 100 << "%" << endl;
 
-        //write_trained_vals(N, "C:/codingstuff/linearregression/weights.json");
+        //write_trained_vals(N, "C:/codingstuff/learnML/weights.json");
 
         
 

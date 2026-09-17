@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\codingstuff\linearregression\build\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\codingstuff\learnML\build\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -88,9 +88,9 @@ events:
       The output was:
       0
       MSBuild version 18.0.5+e22287bf1 for .NET Framework
-      Build started 6/16/2026 8:06:04 AM.
+      Build started 8/30/2026 10:15:30 PM.
       
-      Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -103,7 +103,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\codingstuff\\linearregression\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\codingstuff\\learnML\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -111,13 +111,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\4.1.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.72
+      Time Elapsed 00:00:00.49
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,7 +125,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/codingstuff/linearregression/build/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+        C:/codingstuff/learnML/build/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -775,8 +775,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-u2azty"
-      binary: "C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-u2azty"
+      source: "C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-ptrlny"
+      binary: "C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-ptrlny"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -786,40 +786,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-u2azty'
+        Change Dir: 'C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-ptrlny'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd331.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64ea5.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 6/16/2026 8:06:05 AM.
+        Build started 8/30/2026 10:15:31 PM.
         
-        Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2azty\\cmTC_dd331.vcxproj" on node 1 (default targets).
+        Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ptrlny\\cmTC_64ea5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_dd331.dir\\Debug\\".
+          Creating directory "cmTC_64ea5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2azty\\Debug\\".
-          Creating directory "cmTC_dd331.dir\\Debug\\cmTC_dd331.tlog\\".
+          Creating directory "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ptrlny\\Debug\\".
+          Creating directory "cmTC_64ea5.dir\\Debug\\cmTC_64ea5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dd331.dir\\Debug\\cmTC_dd331.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dd331.dir\\Debug\\cmTC_dd331.tlog\\unsuccessfulbuild".
+          Creating "cmTC_64ea5.dir\\Debug\\cmTC_64ea5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_64ea5.dir\\Debug\\cmTC_64ea5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dd331.dir\\Debug\\\\" /Fd"cmTC_dd331.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_64ea5.dir\\Debug\\\\" /Fd"cmTC_64ea5.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_dd331.dir\\Debug\\\\" /Fd"cmTC_dd331.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_64ea5.dir\\Debug\\\\" /Fd"cmTC_64ea5.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2azty\\Debug\\cmTC_dd331.exe" /INCREMENTAL /ILK:"cmTC_dd331.dir\\Debug\\cmTC_dd331.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-u2azty/Debug/cmTC_dd331.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-u2azty/Debug/cmTC_dd331.lib" /MACHINE:X86  /machine:X86 cmTC_dd331.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_dd331.vcxproj -> C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2azty\\Debug\\cmTC_dd331.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ptrlny\\Debug\\cmTC_64ea5.exe" /INCREMENTAL /ILK:"cmTC_64ea5.dir\\Debug\\cmTC_64ea5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-ptrlny/Debug/cmTC_64ea5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-ptrlny/Debug/cmTC_64ea5.lib" /MACHINE:X86  /machine:X86 cmTC_64ea5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_64ea5.vcxproj -> C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ptrlny\\Debug\\cmTC_64ea5.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_dd331.dir\\Debug\\cmTC_dd331.tlog\\unsuccessfulbuild".
-          Touching "cmTC_dd331.dir\\Debug\\cmTC_dd331.tlog\\cmTC_dd331.lastbuildstate".
-        Done Building Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2azty\\cmTC_dd331.vcxproj" (default targets).
+          Deleting file "cmTC_64ea5.dir\\Debug\\cmTC_64ea5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_64ea5.dir\\Debug\\cmTC_64ea5.tlog\\cmTC_64ea5.lastbuildstate".
+        Done Building Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ptrlny\\cmTC_64ea5.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.65
+        Time Elapsed 00:00:00.46
         
       exitCode: 0
   -
@@ -850,20 +850,16 @@ events:
       Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/HostX86/x86/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.50.35721.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:70 (find_package)"
+      - "CMakeLists.txt:69 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-p3t9wm"
-      binary: "C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-p3t9wm"
+      source: "C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-0wj1wj"
+      binary: "C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-0wj1wj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -872,40 +868,40 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
       cached: true
       stdout: |
-        Change Dir: 'C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-p3t9wm'
+        Change Dir: 'C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-0wj1wj'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_92311.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_282c1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 6/20/2026 9:25:34 PM.
+        Build started 8/30/2026 10:15:31 PM.
         
-        Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p3t9wm\\cmTC_92311.vcxproj" on node 1 (default targets).
+        Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0wj1wj\\cmTC_282c1.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_92311.dir\\Debug\\".
+          Creating directory "cmTC_282c1.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p3t9wm\\Debug\\".
-          Creating directory "cmTC_92311.dir\\Debug\\cmTC_92311.tlog\\".
+          Creating directory "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0wj1wj\\Debug\\".
+          Creating directory "cmTC_282c1.dir\\Debug\\cmTC_282c1.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_92311.dir\\Debug\\cmTC_92311.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_92311.dir\\Debug\\cmTC_92311.tlog\\unsuccessfulbuild".
+          Creating "cmTC_282c1.dir\\Debug\\cmTC_282c1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_282c1.dir\\Debug\\cmTC_282c1.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_92311.dir\\Debug\\\\" /Fd"cmTC_92311.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p3t9wm\\OpenMPTryFlag.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_282c1.dir\\Debug\\\\" /Fd"cmTC_282c1.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0wj1wj\\OpenMPTryFlag.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_92311.dir\\Debug\\\\" /Fd"cmTC_92311.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p3t9wm\\OpenMPTryFlag.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_282c1.dir\\Debug\\\\" /Fd"cmTC_282c1.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0wj1wj\\OpenMPTryFlag.cpp"
           OpenMPTryFlag.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p3t9wm\\Debug\\cmTC_92311.exe" /INCREMENTAL /ILK:"cmTC_92311.dir\\Debug\\cmTC_92311.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-p3t9wm/Debug/cmTC_92311.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-p3t9wm/Debug/cmTC_92311.lib" /MACHINE:X86  /machine:X86 cmTC_92311.dir\\Debug\\OpenMPTryFlag.obj
-          cmTC_92311.vcxproj -> C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p3t9wm\\Debug\\cmTC_92311.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0wj1wj\\Debug\\cmTC_282c1.exe" /INCREMENTAL /ILK:"cmTC_282c1.dir\\Debug\\cmTC_282c1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-0wj1wj/Debug/cmTC_282c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-0wj1wj/Debug/cmTC_282c1.lib" /MACHINE:X86  /machine:X86 cmTC_282c1.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_282c1.vcxproj -> C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0wj1wj\\Debug\\cmTC_282c1.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_92311.dir\\Debug\\cmTC_92311.tlog\\unsuccessfulbuild".
-          Touching "cmTC_92311.dir\\Debug\\cmTC_92311.tlog\\cmTC_92311.lastbuildstate".
-        Done Building Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p3t9wm\\cmTC_92311.vcxproj" (default targets).
+          Deleting file "cmTC_282c1.dir\\Debug\\cmTC_282c1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_282c1.dir\\Debug\\cmTC_282c1.tlog\\cmTC_282c1.lastbuildstate".
+        Done Building Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0wj1wj\\cmTC_282c1.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.83
+        Time Elapsed 00:00:00.49
         
       exitCode: 0
   -
@@ -913,11 +909,11 @@ events:
     backtrace:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
-      - "CMakeLists.txt:70 (find_package)"
+      - "CMakeLists.txt:69 (find_package)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-4la3dm"
-      binary: "C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-4la3dm"
+      source: "C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-jet5t2"
+      binary: "C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-jet5t2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -926,40 +922,40 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: 'C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-4la3dm'
+        Change Dir: 'C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-jet5t2'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d531e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_19772.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.0.5+e22287bf1 for .NET Framework
-        Build started 6/20/2026 9:25:36 PM.
+        Build started 8/30/2026 10:15:32 PM.
         
-        Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4la3dm\\cmTC_d531e.vcxproj" on node 1 (default targets).
+        Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jet5t2\\cmTC_19772.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d531e.dir\\Debug\\".
+          Creating directory "cmTC_19772.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4la3dm\\Debug\\".
-          Creating directory "cmTC_d531e.dir\\Debug\\cmTC_d531e.tlog\\".
+          Creating directory "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jet5t2\\Debug\\".
+          Creating directory "cmTC_19772.dir\\Debug\\cmTC_19772.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d531e.dir\\Debug\\cmTC_d531e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d531e.dir\\Debug\\cmTC_d531e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_19772.dir\\Debug\\cmTC_19772.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_19772.dir\\Debug\\cmTC_19772.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_d531e.dir\\Debug\\\\" /Fd"cmTC_d531e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4la3dm\\OpenMPCheckVersion.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_19772.dir\\Debug\\\\" /Fd"cmTC_19772.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jet5t2\\OpenMPCheckVersion.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35721 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_d531e.dir\\Debug\\\\" /Fd"cmTC_d531e.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4la3dm\\OpenMPCheckVersion.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_19772.dir\\Debug\\\\" /Fd"cmTC_19772.dir\\Debug\\vc145.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jet5t2\\OpenMPCheckVersion.cpp"
           OpenMPCheckVersion.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4la3dm\\Debug\\cmTC_d531e.exe" /INCREMENTAL /ILK:"cmTC_d531e.dir\\Debug\\cmTC_d531e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-4la3dm/Debug/cmTC_d531e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/codingstuff/linearregression/build/CMakeFiles/CMakeScratch/TryCompile-4la3dm/Debug/cmTC_d531e.lib" /MACHINE:X86  /machine:X86 cmTC_d531e.dir\\Debug\\OpenMPCheckVersion.obj
-          cmTC_d531e.vcxproj -> C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4la3dm\\Debug\\cmTC_d531e.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jet5t2\\Debug\\cmTC_19772.exe" /INCREMENTAL /ILK:"cmTC_19772.dir\\Debug\\cmTC_19772.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-jet5t2/Debug/cmTC_19772.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/codingstuff/learnML/build/CMakeFiles/CMakeScratch/TryCompile-jet5t2/Debug/cmTC_19772.lib" /MACHINE:X86  /machine:X86 cmTC_19772.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_19772.vcxproj -> C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jet5t2\\Debug\\cmTC_19772.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_d531e.dir\\Debug\\cmTC_d531e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_d531e.dir\\Debug\\cmTC_d531e.tlog\\cmTC_d531e.lastbuildstate".
-        Done Building Project "C:\\codingstuff\\linearregression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4la3dm\\cmTC_d531e.vcxproj" (default targets).
+          Deleting file "cmTC_19772.dir\\Debug\\cmTC_19772.tlog\\unsuccessfulbuild".
+          Touching "cmTC_19772.dir\\Debug\\cmTC_19772.tlog\\cmTC_19772.lastbuildstate".
+        Done Building Project "C:\\codingstuff\\learnML\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jet5t2\\cmTC_19772.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.51
+        Time Elapsed 00:00:00.50
         
       exitCode: 0
 ...

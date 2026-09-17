@@ -1,22 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\codingstuff\linearregression\src\neuralnetwork\neural_net.cpp">
+    <ClCompile Include="C:\codingstuff\learnML\src\neuralnetwork\neural_net_conv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\codingstuff\linearregression\src\matvec\mat.cpp">
+    <ClCompile Include="C:\codingstuff\learnML\src\matvec\mat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\codingstuff\linearregression\src\matvec\vec.cpp">
+    <ClCompile Include="C:\codingstuff\learnML\src\matvec\vec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\codingstuff\learnML\src\matvec\tensor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\codingstuff\linearregression\CMakeLists.txt" />
+    <CustomBuild Include="C:\codingstuff\learnML\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{53190365-0988-397B-BC26-17C8A9064692}</UniqueIdentifier>
+      <UniqueIdentifier>{87FD03B3-28AB-3CA6-A605-C43E5E795A81}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

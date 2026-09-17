@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/codingstuff/linearregression/build"
+			"value" : "c:/codingstuff/learnML/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -335,7 +335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/codingstuff/linearregression/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/codingstuff/learnML/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -395,7 +395,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/codingstuff/linearregression"
+			"value" : "C:/codingstuff/learnML"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/codingstuff/linearregression/build"
+			"value" : "C:/codingstuff/learnML/build"
 		},
 		{
 			"name" : "MyProject_IS_TOP_LEVEL",
@@ -1063,7 +1063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/codingstuff/linearregression"
+			"value" : "C:/codingstuff/learnML"
 		},
 		{
 			"name" : "OpenMP_COMPILE_RESULT_CXX_openmp",

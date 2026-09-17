@@ -50,14 +50,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Debug-73e58146ba4c0ffb9b28.json",
+					"jsonFile" : "target-ZERO_CHECK-Debug-b77cbcc0a2e25d2b2e93.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "neural_network::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-neural_network-Debug-c36770e5980021c02037.json",
+					"jsonFile" : "target-neural_network-Debug-f47266ce56283e8a2538.json",
 					"name" : "neural_network",
 					"projectIndex" : 0
 				}
@@ -112,14 +112,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-Release-73e58146ba4c0ffb9b28.json",
+					"jsonFile" : "target-ZERO_CHECK-Release-b77cbcc0a2e25d2b2e93.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "neural_network::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-neural_network-Release-670fd0e8fd8a63762836.json",
+					"jsonFile" : "target-neural_network-Release-70e5c73365729da95517.json",
 					"name" : "neural_network",
 					"projectIndex" : 0
 				}
@@ -174,14 +174,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-73e58146ba4c0ffb9b28.json",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-b77cbcc0a2e25d2b2e93.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "neural_network::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-neural_network-MinSizeRel-22c34935426892200cbf.json",
+					"jsonFile" : "target-neural_network-MinSizeRel-94cb5b046ba4dd716150.json",
 					"name" : "neural_network",
 					"projectIndex" : 0
 				}
@@ -236,14 +236,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-73e58146ba4c0ffb9b28.json",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-b77cbcc0a2e25d2b2e93.json",
 					"name" : "ZERO_CHECK",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "neural_network::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-neural_network-RelWithDebInfo-1bd552ec4a34cf0007a0.json",
+					"jsonFile" : "target-neural_network-RelWithDebInfo-2397a21d02e7c9391bf6.json",
 					"name" : "neural_network",
 					"projectIndex" : 0
 				}
@@ -253,8 +253,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/codingstuff/linearregression/build",
-		"source" : "C:/codingstuff/linearregression"
+		"build" : "C:/codingstuff/learnML/build",
+		"source" : "C:/codingstuff/learnML"
 	},
 	"version" : 
 	{

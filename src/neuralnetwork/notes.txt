@@ -1,0 +1,59 @@
+CNN for image classification:
+
+Image→Convolution→ReLU→Pooling→Convolution→ReLU→Pooling→Flatten→Dense→Output
+	​
+
+
+    convolution filter
+    K = 3x3 Mat of convolution weights
+    P = 3x3 patch of the image
+
+    the operation is:
+    Z = for i = 0 until i = 3 {
+            for j = 0 until  j = 3 {
+            k_ij * x_ij + b
+            }
+        }
+
+    then repeatedly slide by a pixel until you have a matrix Z called a feature map which include the weighted sum from every pixel.
+    apply an activation A = f(Z)
+
+    flow is X -> convolution -> Z -> f -> A
+
+    different filters learn different features like edges, corners, curves, textures
+
+    particluar convolution weights affect many different locations in the feature map because of weight sharing.
+    therefore its gradient has to accumulate contributions from all those locations
+
+    the convolution weights are shared and appear in each Z element, one weight participates in many calculations.
+    Because of this, partial L with respect to k_1 = delta_1,1 times x_1 + delta_1,2 times x_2 a delta_2,1 times x_4 + delta_2,2 times x_5
+    it is the sum of all four paths if 2x2 kernel
+
+
+
+
+    //////
+
+    feature extraction with convolution:
+        1. apply set of weights -- a kernel/filter --  to extract local features
+        2. use multiple filters to extract different features
+        3. spatially share parameters of each feature
+
+    cnn architecture:
+    input image -> convolution(feature maps) -> maxpooling -> fully connected layers
+    
+    pooling as a downsampling operation on each feature map
+
+
+    for CNN:
+        add padding?, allow custom stride
+
+    p = (k - 1)/2
+
+    H_out = floor(H_in + 2p - K_h) + 1
+
+
+    things to implement later:
+    asymmetric padding,
+    even kernels,
+    non square kernels

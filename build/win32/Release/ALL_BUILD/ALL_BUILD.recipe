@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\codingstuff\linearregression\build\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\codingstuff\learnML\build\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\codingstuff\linearregression\build\Release\neural_network.exe</FullPath>
+      <FullPath>C:\codingstuff\learnML\build\Release\neural_network.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\codingstuff\linearregression\build\Release\ALL_BUILD</FullPath>
+      <FullPath>C:\codingstuff\learnML\build\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,6 +1,6 @@
-^C:\CODINGSTUFF\LINEARREGRESSION\CMAKELISTS.TXT
+^C:\CODINGSTUFF\LEARNML\CMAKELISTS.TXT
 setlocal
-"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/codingstuff/linearregression -BC:/codingstuff/linearregression/build --check-stamp-file C:/codingstuff/linearregression/build/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/codingstuff/learnML -BC:/codingstuff/learnML/build --check-stamp-file C:/codingstuff/learnML/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
