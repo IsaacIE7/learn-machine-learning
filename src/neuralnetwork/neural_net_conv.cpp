@@ -122,34 +122,27 @@ struct NeuralNetConv {
 //END OF UTILS
 
 int main() {
-    // Input shape: [batch, channels, height, width]
-    // [1, 1, 3, 3]
+    // Input: [1, 1, 5, 5]
     //
-    // 1 2 3
-    // 4 5 6
-    // 7 8 9
+    //  1  2  3  4  5
+    //  6  7  8  9 10
+    // 11 12 13 14 15
+    // 16 17 18 19 20
+    // 21 22 23 24 25
 
-    Tensor input({1, 1, 3, 3});
+    Tensor input({1, 1, 5, 5});
 
-    input.data = {
-        1, 2, 3,
-        4, 5, 6,
-        7, 8, 9
-    };
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 5; j++) {
+            input.data[input.get_index({0, 0, i, j})]
+                = i * 5 + j + 1;
+        }
+    }
 
-    // 1 kernel
-    // 3x3 kernel
-    // 1 input channel
-    // padding = true
-    ConvLayer conv(1, 3, 3, 1, true);
+    // 1 kernel, 3x3, 1 channel, NO padding
+    ConvLayer conv(1, 3, 3, 1, false);
 
-    // Override random kernel initialization.
-    //
-    // Kernel:
-    // 1 1 1
-    // 1 1 1
-    // 1 1 1
-
+    // Kernel = all ones
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             conv.kernels.data[
@@ -158,11 +151,10 @@ int main() {
         }
     }
 
-    // Override random bias
     conv.biases[0] = 0.0;
 
-    // Stride = 1
-    Tensor output = conv.forward(input, 1);
+    // STRIDE = 2
+    Tensor output = conv.forward(input, 2);
 
     cout << "Output shape: ";
 

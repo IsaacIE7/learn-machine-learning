@@ -52,6 +52,7 @@ using namespace std;
         for (int i = 0; i < indices.size(); i++) {
             index += indices[i] * strides[i];
         }
+        return index;
     }
 
     double Tensor::get(vector<int> indices) const {

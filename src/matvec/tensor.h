@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include "vec.h"
 #include "mat.h"
@@ -45,7 +47,5 @@ struct Tensor {
 
     Tensor scale(double c) const;
 
-    Tensor operator*(double c) const {
-        return this->scale(c);
-    }
+    Tensor operator*(double c) const;
 };
